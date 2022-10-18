@@ -18,8 +18,8 @@ public class SalesManager {
             return max;
         }
 
-        public int trim(){
-            int res = 0;
+        public long trim(){
+            long res = 0;
             for (int i = 1; i < sales.length -1; i++){
                 res += sales[i];
 

@@ -30,5 +30,3 @@ SalesManager salesManager = new SalesManager(new long[]{3,5,12,34,65,48,37,9,26}
         Assertions.assertThrows(ArithmeticException.class, () ->  salesManager2.trim());
     }
 }
-
-
